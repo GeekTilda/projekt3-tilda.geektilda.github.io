@@ -31,13 +31,6 @@ body {
   transition: 0.3s;
 }
 
-.nav-bar .Thissite:hover {
-  color: darksalmon;
-  border: dotted;
-  transition: 0.3s;
-  text-shadow: 2px 2px black;
-}
-
 .nav-bar img {
   width: 50%;
 }
@@ -54,6 +47,13 @@ body {
 .nav-links-few a {
   width: 75%;
   margin-top: 10px;
+}
+
+.nav-links a:hover {
+  color: darksalmon;
+  border: dotted;
+  transition: 0.3s;
+  text-shadow: 2px 2px black;
 }
 
 .Thissite {
@@ -108,4 +108,14 @@ body {
   margin-top: 20px;
   width: 100%;
   border: solid 5px darksalmon;
+}
+
+.contentsocials {
+  color: beige;
+  font-family: "Raleway";
+  grid-column: 3/11;
+}
+
+.snap {
+  width: 200px;
 }
