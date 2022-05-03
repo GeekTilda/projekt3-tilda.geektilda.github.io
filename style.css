@@ -31,8 +31,9 @@ body {
   transition: 0.3s;
 }
 
-.nav-bar a:hover {
+.nav-bar .Thissite:hover {
   color: darksalmon;
+  border: dotted;
   transition: 0.3s;
   text-shadow: 2px 2px black;
 }
@@ -44,6 +45,15 @@ body {
 .nav-links-few {
   margin-top: 10%;
   font-size: 75%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+.nav-links-few a {
+  width: 75%;
+  margin-top: 10px;
 }
 
 .Thissite {
@@ -62,7 +72,7 @@ body {
 
 .content a {
   text-decoration: none;
-  color: white;
+  color: beige;
   font-family: "Raleway";
   font-size: 200%;
 }
@@ -84,7 +94,7 @@ body {
 }
 
 .contentindex {
-  color: white;
+  color: beige;
   display: flexbox;
   grid-row: 2/7;
   grid-column: 5/9;
