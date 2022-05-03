@@ -14,7 +14,7 @@ body {
 }
 
 .nav-bar {
-  height: 100vh;
+  height: 100%;
   background-color: beige;
   grid-row: 1/11;
   grid-column: 1/3;
@@ -56,7 +56,8 @@ body {
 }
 
 .content img {
-  width: 400px;
+  width: 100%;
+  border: solid 5px darksalmon;
 }
 
 .content a {
@@ -69,13 +70,10 @@ body {
 .content {
   display: flexbox;
   grid-row: 2/7;
-  grid-column: 4/9;
+  grid-column: 5/9;
   text-align: center;
+  align-items: center;
   justify-content: center;
-}
-
-.content img {
-  border: solid 5px darksalmon;
 }
 
 .projekt {
@@ -83,4 +81,21 @@ body {
   justify-content: space-between;
   display: flexbox;
   width: 400px;
+}
+
+.contentindex {
+  color: white;
+  display: flexbox;
+  grid-row: 2/7;
+  grid-column: 5/9;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-family: "Raleway";
+}
+
+.contentindex img {
+  margin-top: 20px;
+  width: 100%;
+  border: solid 5px darksalmon;
 }
