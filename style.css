@@ -68,6 +68,7 @@ body {
 .content img {
   width: 100%;
   border: solid 5px darksalmon;
+  transition: 0.3s;
 }
 
 .content a {
@@ -108,14 +109,35 @@ body {
   margin-top: 20px;
   width: 100%;
   border: solid 5px darksalmon;
+  transition: 0.3s;
+}
+
+.contentindex img:hover {
+  border: dotted 5px darksalmon;
+  transition: 0.3s;
 }
 
 .contentsocials {
   color: beige;
+  display: flexbox;
+  grid-row: 2/7;
+  grid-column: 4/10;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
   font-family: "Raleway";
-  grid-column: 3/11;
 }
 
-.snap {
+.contentsocials h1 {
+  margin-bottom: 10%;
+}
+
+.images {
   width: 200px;
+}
+
+.socials {
+  margin-bottom: 10%;
+  display: flex;
+  justify-content: space-evenly;
 }
