@@ -102,7 +102,7 @@ body {
 .contentindex {
   color: beige;
   display: flexbox;
-  grid-row: 2/7;
+  grid-row: 2/10;
   grid-column: 5/9;
   text-align: center;
   align-items: center;
@@ -145,4 +145,37 @@ body {
   margin-bottom: 10%;
   display: flex;
   justify-content: space-evenly;
+}
+
+.fotobilder {
+  display: flex;
+  grid-row: 2/8;
+  grid-column: 4/10;
+  flex-wrap: wrap;
+}
+
+.bilder1 img {
+  height: 350px;
+  border: solid darksalmon 4px;
+}
+
+.bilder1 {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.text1 {
+  color: beige;
+  font-family: "Raleway";
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+
+.Ifrit {
+  margin-top: 5%;
+}
+
+.Pixel {
+  margin-top: 5%;
 }
