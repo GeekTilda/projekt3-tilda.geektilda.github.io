@@ -78,13 +78,18 @@ body {
   font-size: 200%;
 }
 
+.content h1 {
+  color: darksalmon;
+  font-family: "Raleway";
+  margin-bottom: 10%;
+}
+
 .content {
   display: flexbox;
-  grid-row: 2/7;
-  grid-column: 5/9;
+  grid-row: 2/11;
+  grid-column: 3/11;
   text-align: center;
-  align-items: center;
-  justify-content: center;
+  margin: auto;
 }
 
 .projekt {
@@ -120,7 +125,7 @@ body {
 .contentsocials {
   color: beige;
   display: flexbox;
-  grid-row: 2/7;
+  grid-row: 2/10;
   grid-column: 4/10;
   text-align: center;
   align-items: center;
